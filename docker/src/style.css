@@ -1,0 +1,47 @@
+/* On définit le style de l'élément personnalisé */
+.custom-file-input {
+    display: flex;
+    align-items: center;
+    border: 2px dashed #ccc;
+    padding: 5px;
+    min-width: 300px;
+    min-height: 200px;
+    text-align: center;    
+    /* On utilise la propriété justify-content pour aligner les éléments horizontalement au centre */
+    justify-content: center;
+    /* On utilise la propriété flex-direction pour disposer les éléments verticalement */
+    flex-direction: column;
+  }
+  
+  /* On définit le style du bouton */
+  .custom-file-input button {
+    background-color: #00b1ca;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* On définit le style de l'élément qui contient les icônes de fichier */
+  .custom-file-input .file-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+  
+  /* On définit le style des icônes de fichier */
+  .custom-file-input .file-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="%2300b1ca" viewBox="0 0 24 24"><path d="M9 3l-6 6v12h18v-18h-12zm-4.586 6l4.586-4.586v3.172h-4.586v1.414zm6 2h-6v8h12v-8h-6zm-2 2h4v4h-4v-4z"/></svg>');
+    margin: 2px;
+  }
+  
+  /* On définit le style du texte */
+  .custom-file-input p {
+    /* On utilise la propriété color pour donner une couleur grise au texte */
+    color: #999;
+    /* On utilise la propriété font-style pour donner un style italique au texte */
+    font-style: italic;
+  }
+  
